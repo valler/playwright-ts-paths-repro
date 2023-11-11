@@ -1,0 +1,17 @@
+{
+  "include": ["."],
+  "compilerOptions": {
+    "strict": true,
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "Bundler",
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    /* Playwright can't resolve paths without `baseURL` */
+    // "baseUrl": ".",
+    "paths": {
+      "~src/*": ["../src/*"]
+    }
+  }
+}

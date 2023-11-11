@@ -1,0 +1,23 @@
+{
+  "name": "@valler/playwright-ts-paths-repro",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "prettier": "^3.0.3"
+  },
+  "scripts": {
+    "format": "prettier --ignore-path .gitignore --write .",
+    "test": "playwright test"
+  },
+  "author": "valler <hi@valerij.me>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/valler/playwright-ts-paths-repro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/valler/playwright-ts-paths-repro/issues"
+  },
+  "homepage": "https://github.com/valler/playwright-ts-paths-repro#readme"
+}

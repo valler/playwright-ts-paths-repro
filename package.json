@@ -8,7 +8,7 @@
     "prettier": "^3.0.3"
   },
   "scripts": {
-    "format": "prettier --ignore-path .gitignore --write .",
+    "format": "prettier --write .",
     "test": "playwright test"
   },
   "author": "valler <hi@valerij.me>",

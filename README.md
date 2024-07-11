@@ -1,10 +1,10 @@
 # Playwright TS Paths Repro
 
+The fix has been merged: [#27846](https://github.com/microsoft/playwright/pull/27846).
+
 **How to resolve TypeScript paths in Playwright tests.**
 
 An issue for this already exists the Playwright repo: [#27933](https://github.com/microsoft/playwright/issues/27933).
-
-And a fix seems to exist: [#27846](https://github.com/microsoft/playwright/pull/27846).
 
 Currently Playwright won't resolve `paths` in `tsconfig.json` unless `baseURL` is set explicitly.
 
